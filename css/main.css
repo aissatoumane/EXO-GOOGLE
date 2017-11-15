@@ -1,0 +1,98 @@
+/*********** Universal Selector ***************/
+
+
+* {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+
+
+
+
+/*********** Links ***************************/
+
+
+a:link, a:visited {
+    color:#636262;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color:black;
+}
+
+
+
+
+
+/*********** Header ***************************/
+
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+header li {
+    margin-left: 1%;
+}
+
+
+
+
+
+/*********** Main ****************************/
+
+
+.logo {
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+.searchBar{
+    text-align: center;
+}
+
+
+#searchBarInput {
+    margin-bottom: 20px;
+    width: 40%;
+    height: 30px;
+}
+
+
+.button {
+    border: none;
+    background-color: #e4e4e4;
+    padding: 1%;
+    color:#636262;
+    font-weight: bold;
+}
+
+
+
+
+/*********** Footer **************************/
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    border-top: solid 1px #e4e4e4;
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 30px;
+    padding: 10px;
+}
+
+.footerLeft2 {
+    text-indent: 10px;
+}
